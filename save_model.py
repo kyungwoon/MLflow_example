@@ -58,3 +58,6 @@ with mlflow.start_run():
 
 # 데이터 저장
 df.to_csv("data.csv", index=False)
+
+
+# python save_model.py --model-name "test_model"
